@@ -2,7 +2,7 @@ import { render, screen, fireEvent } from "@testing-library/react";
 import { GifExpertApp } from "../src/GifExpertApp";
 
 describe('Tests on GifExpertApp', () => {
-  test("should render correctly", () => {
+  test("should render title", () => {
     render(<GifExpertApp />);
 
     expect(screen.getByText("Gift Expert App")).toBeTruthy();
