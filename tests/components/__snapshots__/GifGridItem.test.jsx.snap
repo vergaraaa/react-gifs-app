@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests on GifGridItems.jsx should match snapshot 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      alt="Gif Grid Item"
+      src="https://place-hold.it/300x500"
+    />
+    <p>
+      Gif Grid Item
+    </p>
+  </div>
+</div>
+`;
